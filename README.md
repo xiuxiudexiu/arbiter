@@ -225,6 +225,7 @@ python examples/batch_evaluation_example.py
 python examples/observability_example.py
 python examples/groundedness_example.py      # RAG source attribution
 python examples/relevance_example.py         # Query-output alignment
+pytest examples/pytest_integration.py -v     # Pytest assertions for LLM outputs
 ```
 
 ## Development
